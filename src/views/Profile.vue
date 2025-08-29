@@ -19,6 +19,13 @@ console.log('route.params.userId:', route.params.userId);
             return '맞팔로우';
     }
 }
+/*
+팔로우 상태 case
+0 : 서로 팔로우 안 한 상태
+1: 나만 상대방을 팔로우 한 상태
+2: 상대방만 나를 팔로우 한 상태
+3: 서로 팔로우 한 상태
+*/
 </script>
 
 <template>
